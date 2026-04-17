@@ -35,7 +35,7 @@ if "chat_history" not in st.session_state:
 
 # ------------------ SIDEBAR ------------------
 with st.sidebar:
-    st.header("")
+    st.header("ADA certificate.pdf")
     uploaded_files = st.file_uploader(
         "Upload your PDF documents", type="pdf", accept_multiple_files=True
     )
